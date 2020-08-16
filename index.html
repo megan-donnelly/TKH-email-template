@@ -9,15 +9,19 @@
   img {height: auto;}
   .content {width: 100%; max-width: 600px;}
   .header {padding: 15px 30px 35px 30px;}
-  .innerpadding {padding: 30px 30px 30px 30px;}
-  .borderbottom {border-bottom: 1px solid #f2eeed;}
-  .subhead {font-size: 25px; color: #ffffff; font-family: sans-serif; letter-spacing: 5px; font-weight: bold; text-align: center; width: 100%;}
+  .innerpadding {padding: 20px 20px 20px 20px;}
+  .sectionborder {border: solid #ffffff;} 
+  .blockbackground {background-color: #ebebeb;}
+  .title {font-size: 25px; color: #ffffff; font-family: 'Lato', sans-serif; letter-spacing: 5px; font-weight: bold; text-align: center; width: 100%;}
+  .subhead {padding: 5px 0 0 0; color:#ffffff; text-align: center; font-weight: lighter; font-family: sans-serif;}
+  .sectionsubhead {font-size: 20px; color:#291b4b; font-family: 'Lato', sans-serif; letter-spacing: 5px; font-weight: bold; width: 100%; text-align: center; padding:15px 0 15px 0;}
+  .imgborder{border: 2px solid #134f5c;}
   .h1, .h2, .bodycopy {color: #153643; font-family: sans-serif;}
   .h1 {font-size: 33px; line-height: 38px; font-weight: bold;}
   .h2 {padding: 0 0 15px 0; font-size: 24px; line-height: 28px; font-weight: bold;}
   .bodycopy {font-size: 16px; line-height: 22px;}
-  .button {text-align: center; font-size: 18px; font-family: sans-serif; font-weight: bold; padding: 0 30px 0 30px;}
-  .button a {color: #ffffff; text-decoration: none;}
+  .button {text-align: center; font-size: 18px; font-family: sans-serif; font-weight: bold; padding: 0 30px 0 30px; background-color: #ffc20a; border-radius: 8px; border: none;}
+  .button a {color: #291b4b; text-decoration: none;}
   .footer {padding: 20px 30px 15px 30px;}
   .footercopy {font-family: sans-serif; font-size: 14px; color: #291b4b;}
   .footercopy a {color: #ffffff; text-decoration: underline;}
@@ -66,71 +70,21 @@
               <td height="70">
                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
                   <tr>
-                    <td class="subhead" style="padding:15px 0 0 0;">
+                    <td class="title" style="padding:15px 0 0 0;">
                       Title
                     </td>
                   </tr>
                   <tr>
-                    <td style="padding: 5px 0 0 0; color:#ffffff; text-align: center; font-weight: lighter; font-family: sans-serif;">
+                    <td class="subhead">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. 
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-          </table>
-          <!--[if (gte mso 9)|(IE)]>
-                </td>
-              </tr>
-          </table>
-          <![endif]-->
-        </td>
-      </tr>
-      <tr>
-        <td class="innerpadding borderbottom">
-          <table width="100%" border="0" cellspacing="0" cellpadding="0">
-            <tr>
-              <td class="h2">
-                Welcome to our responsive email!
-              </td>
-            </tr>
-            <tr>
-              <td class="bodycopy">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-      <tr>
-        <td class="innerpadding borderbottom">
-          <table width="115" align="left" border="0" cellpadding="0" cellspacing="0">  
-            <tr>
-              <td height="115" style="padding: 0 20px 20px 0;">
-                <img class="fix" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/article1.png" width="115" height="115" border="0" alt="" />
-              </td>
-            </tr>
-          </table>
-          <!--[if (gte mso 9)|(IE)]>
-            <table width="380" align="left" cellpadding="0" cellspacing="0" border="0">
-              <tr>
-                <td>
-          <![endif]-->
-          <table class="col380" align="left" border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 380px;">  
-            <tr>
-              <td>
-                <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                  <tr>
-                    <td class="bodycopy">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.
                     </td>
                   </tr>
                   <tr>
                     <td style="padding: 20px 0 0 0;">
-                      <table class="buttonwrapper" bgcolor="#e05443" border="0" cellspacing="0" cellpadding="0">
+                      <table  align="center" class="buttonwrapper" border="0" cellspacing="0" cellpadding="0">
                         <tr>
                           <td class="button" height="45">
-                            <a href="#">Claim yours!</a>
+                            <a href="#">CLICK HERE</a>
                           </td>
                         </tr>
                       </table>
@@ -148,13 +102,137 @@
         </td>
       </tr>
       <tr>
-        <td class="innerpadding borderbottom">
-          <img class="fix" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/wide.png" width="100%" border="0" alt="" />
+        <td class="innerpadding sectionborder blockbackground" style="border-width: 20px 20px 10px 20px;">
+          <table width="250" align="left" border="0" cellpadding="0" cellspacing="0">  
+            <tr>
+              <td height="250" style="padding: 0 20px 20px 0;">
+                <img class="fix imgborder" src="https://tkhv2-static.s3.amazonaws.com/media/get_involved/banner/DSC01368_riFleIX.JPG" width="300" height="115" border="0" alt="" />
+              </td>
+            </tr>
+          </table>
+          <!--[if (gte mso 9)|(IE)]>
+            <table width="380" align="left" cellpadding="0" cellspacing="0" border="0">
+              <tr>
+                <td>
+          <![endif]-->
+          <table class="col380" align="left" border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 200px; padding: 20px 0 0 0;">  
+            <tr>
+              <td>
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td class="bodycopy">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="padding: 20px 0 0 0;">
+                      <table class="buttonwrapper" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td class="button" height="45">
+                            <a href="#">CLICK HERE</a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+          <!--[if (gte mso 9)|(IE)]>
+                </td>
+              </tr>
+          </table>
+          <![endif]-->
         </td>
       </tr>
       <tr>
-        <td class="innerpadding bodycopy">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.
+        <td>
+            <table>
+                <tr>
+                    <td class="innerpadding sectionborder blockbackground" style="width: 240px; border-width: 10px 10px 10px 20px;"> 
+                        <table class="buttonwrapper" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td style="padding: 0 20px 0 20px;">
+                                  <img class="fix imgborder" src="https://tkhv2-static.s3.amazonaws.com/media/get_involved/banner/DSC01368_riFleIX.JPG" width="200" border="0" alt="" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="sectionsubhead">
+                                  Section Title
+                                </td>
+                              </tr>
+                            <tr>
+                                <td class="bodycopy" style="text-align: center;">
+                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed.
+                                </td>
+                              </tr>
+                        </table>
+                    </td>
+                    <td class="innerpadding sectionborder blockbackground" style="width: 240px; border-width: 10px 20px 10px 10px;">
+                        <table class="buttonwrapper" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td style="padding: 0 20px 0 20px;">
+                                  <img class="fix imgborder" src="https://tkhv2-static.s3.amazonaws.com/media/get_involved/banner/DSC01368_riFleIX.JPG" width="200" border="0" alt="" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="sectionsubhead">
+                                  Section Title
+                                </td>
+                              </tr>
+                            <tr>
+                                <td class="bodycopy" style="text-align: center;">
+                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed.
+                                </td>
+                              </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+      </tr>
+      <tr>
+        <td class="innerpadding sectionborder blockbackground" style="border-width: 10px 20px 20px 20px;">
+          <!--[if (gte mso 9)|(IE)]>
+            <table width="380" align="left" cellpadding="0" cellspacing="0" border="0">
+              <tr>
+                <td>
+          <![endif]-->
+          <table class="col380" align="center" border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 380px; text-align: center;">  
+            <tr>
+              <td>
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td class="sectionsubhead">
+                      Section Title
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="bodycopy">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="padding: 20px 0 0 0;">
+                      <table  align="center" class="buttonwrapper" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td class="button" height="45">
+                            <a href="#">CLICK HERE</a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+          <!--[if (gte mso 9)|(IE)]>
+                </td>
+              </tr>
+          </table>
+          <![endif]-->
         </td>
       </tr>
       <tr>
